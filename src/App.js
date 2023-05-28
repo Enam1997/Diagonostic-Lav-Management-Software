@@ -12,14 +12,16 @@ function App() {
       <Topbar />
       <div className="container">
         <Sidebar />
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/patient/create" element={<PatientDetails />} />
-          {/* <Route path="/users" element={<Users />} />
+        <div className="main-content">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/patient/create" element={<PatientDetails />} />
+            {/* <Route path="/users" element={<Users />} />
           <Route path="/user/:userId" element={<User />} />
           <Route path="/newUser" element={<NewUser />} />
           <Route path="/products" element={<Products />} /> */}
-        </Routes>
+          </Routes>
+        </div>
       </div>
     </Router>
   );

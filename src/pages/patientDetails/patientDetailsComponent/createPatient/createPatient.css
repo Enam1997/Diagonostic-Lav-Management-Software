@@ -1,5 +1,9 @@
-.createPatient {
+.input-container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.input-item {
+  flex: 1;
+  margin-right: 20px;
 }

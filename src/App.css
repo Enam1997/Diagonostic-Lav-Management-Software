@@ -7,3 +7,13 @@
   text-decoration: none;
   color: inherit;
 }
+
+.main-content {
+  flex: 6;
+  border: 5px;
+  margin: 40px;
+
+  border-width: 2px;
+  border-style: solid;
+  border-color: rgb(141, 133, 133);
+}

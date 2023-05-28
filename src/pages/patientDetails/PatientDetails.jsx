@@ -7,6 +7,7 @@ import TabContext from "@mui/lab/TabContext";
 import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import CreatePatient from "./patientDetailsComponent/createPatient/CreatePatient";
+import PatientList from "./patientDetailsComponent/patientList/PatientList";
 
 const PatientDetails = () => {
   const [value, setValue] = React.useState("1");
@@ -16,9 +17,8 @@ const PatientDetails = () => {
   };
 
   return (
-    <div className="patientDetails">
+    <div className="patient-details">
       <Box sx={{ typography: "body1" }}>
-        <div>PAtient Detais</div>
         <TabContext value={value}>
           <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
             <TabList onChange={handleChange} aria-label="lab API tabs example">
@@ -28,10 +28,12 @@ const PatientDetails = () => {
               <Tab label="Deactivate Accounts" value="4" />
             </TabList>
           </Box>
-          <TabPanel value="1">
+          <TabPanel value="1" className="tav-container">
             <CreatePatient />
           </TabPanel>
-          <TabPanel value="2">Patient List</TabPanel>
+          <TabPanel value="2" className="tav-container">
+            <PatientList />
+          </TabPanel>
           <TabPanel value="3">Category</TabPanel>
           <TabPanel value="4">Deactivate Accounts</TabPanel>
         </TabContext>

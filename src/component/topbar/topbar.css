@@ -7,7 +7,7 @@
   z-index: 900;
 }
 
-.topbarWrapper {
+.topbar-wrapper {
   height: 100%;
   padding: 5px 20px;
   display: flex;
@@ -22,23 +22,23 @@
   cursor: pointer;
 }
 
-.topMiddle {
+.top-middle {
   display: flex;
   align-items: center;
 }
 
-.topRight {
+.top-right {
   display: flex;
   align-items: center;
 }
 
-.topbarIconsContainer {
+.topbar-icons-container {
   position: relative;
   cursor: pointer;
   margin-right: 20px;
   color: #555;
 }
-.topIconBadge {
+.top-icon-badge {
   width: 20px;
   height: 20px;
   position: absolute;
@@ -52,7 +52,7 @@
   justify-content: center;
 }
 
-.topAvatar {
+.top-avatar {
   width: 40px;
   height: 40px;
   border-radius: 50%;
@@ -63,6 +63,6 @@
   background-color: blueviolet;
 }
 
-.quicAcessButton {
+.quic-acess-button {
   margin-left: 30px;
 }
