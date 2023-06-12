@@ -8,6 +8,8 @@ import TabList from "@mui/lab/TabList";
 import TabPanel from "@mui/lab/TabPanel";
 import CreatePatient from "./patientDetailsComponent/createPatient/CreatePatient";
 import PatientList from "./patientDetailsComponent/patientList/PatientList";
+import PatientCategory from "./patientDetailsComponent/category/PatientCategory";
+import DeactivateAccount from "./patientDetailsComponent/deactivateAccount/DeactivateAccount";
 
 const PatientDetails = () => {
   const [value, setValue] = React.useState("1");
@@ -34,8 +36,12 @@ const PatientDetails = () => {
           <TabPanel value="2" className="tav-container">
             <PatientList />
           </TabPanel>
-          <TabPanel value="3">Category</TabPanel>
-          <TabPanel value="4">Deactivate Accounts</TabPanel>
+          <TabPanel value="3">
+            <PatientCategory />
+          </TabPanel>
+          <TabPanel value="4">
+            <DeactivateAccount />
+          </TabPanel>
         </TabContext>
       </Box>
     </div>

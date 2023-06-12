@@ -18,7 +18,7 @@ Its an Diagonostic Lav Management Software whic will be used for manage Diagonos
 - Create Patient
 - Patient List
 - Category
-- Login Deactivate
+- Deactivate Account
 
 # Manage Inventory
 

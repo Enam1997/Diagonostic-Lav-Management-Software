@@ -3,17 +3,9 @@ import "./sidebar.css";
 import { Link } from "react-router-dom";
 import {
   LineStyle,
-  Timeline,
-  TrendingUp,
   PersonOutline,
-  AttachMoney,
-  Assessment,
-  Inventory2,
   MailOutline,
-  Grading,
-  ChatBubbleOutline,
   ManageAccounts,
-  Report,
 } from "@mui/icons-material";
 
 const Sidebar = () => {
@@ -26,17 +18,9 @@ const Sidebar = () => {
             <Link to="/" className="link">
               <li className="sidebar-list-item  active">
                 <LineStyle className="sidebar-icon" />
-                Home
+                Dashboard
               </li>
             </Link>
-            <li className="sidebar-list-item ">
-              <Timeline className="sidebar-icon" />
-              Analytics
-            </li>
-            <li className="sidebar-list-item ">
-              <TrendingUp className="sidebar-icon" />
-              Sales
-            </li>
           </ul>
         </div>
         <div className="sidebar-menu">
@@ -45,24 +29,9 @@ const Sidebar = () => {
             <Link to="/users" className="link">
               <li className="sidebar-list-item ">
                 <PersonOutline className="sidebar-icon" />
-                Users
+                Website
               </li>
             </Link>
-
-            <Link to="/products" className="link">
-              <li className="sidebar-list-item ">
-                <Inventory2 className="sidebar-icon" />
-                Products
-              </li>
-            </Link>
-            <li className="sidebar-list-item ">
-              <AttachMoney className="sidebar-icon" />
-              Transaction
-            </li>
-            <li className="sidebar-list-item ">
-              <Assessment className="sidebar-icon" />
-              Assessment
-            </li>
           </ul>
         </div>
         <div className="sidebar-menu">
@@ -71,26 +40,7 @@ const Sidebar = () => {
             <Link to="/patient/create" className="link">
               <li className="sidebar-list-item ">
                 <MailOutline className="sidebar-icon" />
-                Create Patient
-              </li>
-            </Link>
-
-            <Link to="/patient/view" className="link">
-              <li className="sidebar-list-item ">
-                <Grading className="sidebar-icon" />
-                Patient List
-              </li>
-            </Link>
-            <Link to="/patient/catergory" className="link">
-              <li className="sidebar-list-item ">
-                <ChatBubbleOutline className="sidebar-icon" />
-                Category
-              </li>
-            </Link>
-            <Link to="/patient/deactiveAccount" className="link">
-              <li className="sidebar-list-item ">
-                <ChatBubbleOutline className="sidebar-icon" />
-                Deactivate Accounts
+                Patient
               </li>
             </Link>
           </ul>
@@ -100,15 +50,7 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="sidebar-list-item ">
               <ManageAccounts className="sidebar-icon" />
-              Manage
-            </li>
-            <li className="sidebar-list-item ">
-              <Timeline className="sidebar-icon" />
-              Analytics
-            </li>
-            <li className="sidebar-list-item ">
-              <Report className="sidebar-icon" />
-              Report
+              Inventory
             </li>
           </ul>
         </div>
@@ -117,15 +59,7 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="sidebar-list-item ">
               <LineStyle className="sidebar-icon" />
-              Home
-            </li>
-            <li className="sidebar-list-item ">
-              <Timeline className="sidebar-icon" />
-              Analytics
-            </li>
-            <li className="sidebar-list-item ">
-              <TrendingUp className="sidebar-icon" />
-              Sales
+              Schedule
             </li>
           </ul>
         </div>
@@ -134,15 +68,7 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="sidebar-list-item ">
               <LineStyle className="sidebar-icon" />
-              Home
-            </li>
-            <li className="sidebar-list-item ">
-              <Timeline className="sidebar-icon" />
-              Analytics
-            </li>
-            <li className="sidebar-list-item ">
-              <TrendingUp className="sidebar-icon" />
-              Sales
+              Appoinment
             </li>
           </ul>
         </div>
@@ -151,15 +77,7 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="sidebar-list-item ">
               <LineStyle className="sidebar-icon" />
-              Home
-            </li>
-            <li className="sidebar-list-item ">
-              <Timeline className="sidebar-icon" />
-              Analytics
-            </li>
-            <li className="sidebar-list-item ">
-              <TrendingUp className="sidebar-icon" />
-              Sales
+              Employee
             </li>
           </ul>
         </div>
@@ -168,15 +86,7 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="sidebar-list-item ">
               <LineStyle className="sidebar-icon" />
-              Home
-            </li>
-            <li className="sidebar-list-item ">
-              <Timeline className="sidebar-icon" />
-              Analytics
-            </li>
-            <li className="sidebar-list-item ">
-              <TrendingUp className="sidebar-icon" />
-              Sales
+              Human Resorce
             </li>
           </ul>
         </div>
@@ -185,15 +95,7 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="sidebar-list-item ">
               <LineStyle className="sidebar-icon" />
-              Home
-            </li>
-            <li className="sidebar-list-item ">
-              <Timeline className="sidebar-icon" />
-              Analytics
-            </li>
-            <li className="sidebar-list-item ">
-              <TrendingUp className="sidebar-icon" />
-              Sales
+              Pathology
             </li>
           </ul>
         </div>
@@ -202,15 +104,7 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="sidebar-list-item ">
               <LineStyle className="sidebar-icon" />
-              Home
-            </li>
-            <li className="sidebar-list-item ">
-              <Timeline className="sidebar-icon" />
-              Analytics
-            </li>
-            <li className="sidebar-list-item ">
-              <TrendingUp className="sidebar-icon" />
-              Sales
+              Refer Manager
             </li>
           </ul>
         </div>
@@ -219,15 +113,7 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="sidebar-list-item ">
               <LineStyle className="sidebar-icon" />
-              Home
-            </li>
-            <li className="sidebar-list-item ">
-              <Timeline className="sidebar-icon" />
-              Analytics
-            </li>
-            <li className="sidebar-list-item ">
-              <TrendingUp className="sidebar-icon" />
-              Sales
+              Office Accounting
             </li>
           </ul>
         </div>
@@ -236,15 +122,7 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="sidebar-list-item ">
               <LineStyle className="sidebar-icon" />
-              Home
-            </li>
-            <li className="sidebar-list-item ">
-              <Timeline className="sidebar-icon" />
-              Analytics
-            </li>
-            <li className="sidebar-list-item ">
-              <TrendingUp className="sidebar-icon" />
-              Sales
+              Pathology Billing
             </li>
           </ul>
         </div>
@@ -253,15 +131,7 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="sidebar-list-item ">
               <LineStyle className="sidebar-icon" />
-              Home
-            </li>
-            <li className="sidebar-list-item ">
-              <Timeline className="sidebar-icon" />
-              Analytics
-            </li>
-            <li className="sidebar-list-item ">
-              <TrendingUp className="sidebar-icon" />
-              Sales
+              Investigation Report
             </li>
           </ul>
         </div>
@@ -270,15 +140,7 @@ const Sidebar = () => {
           <ul className="sidebar-list">
             <li className="sidebar-list-item ">
               <LineStyle className="sidebar-icon" />
-              Home
-            </li>
-            <li className="sidebar-list-item ">
-              <Timeline className="sidebar-icon" />
-              Analytics
-            </li>
-            <li className="sidebar-list-item ">
-              <TrendingUp className="sidebar-icon" />
-              Sales
+              Settings
             </li>
           </ul>
         </div>
