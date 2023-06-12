@@ -57,10 +57,12 @@ const Sidebar = () => {
         <div className="sidebar-menu">
           <h3 className="sidebar-title">Schedule</h3>
           <ul className="sidebar-list">
-            <li className="sidebar-list-item ">
-              <LineStyle className="sidebar-icon" />
-              Schedule
-            </li>
+            <Link to="/schedule" className="link">
+              <li className="sidebar-list-item ">
+                <LineStyle className="sidebar-icon" />
+                Schedule
+              </li>
+            </Link>
           </ul>
         </div>
         <div className="sidebar-menu">

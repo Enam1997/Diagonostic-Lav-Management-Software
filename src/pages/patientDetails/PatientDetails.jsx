@@ -12,10 +12,10 @@ import PatientCategory from "./patientDetailsComponent/category/PatientCategory"
 import DeactivateAccount from "./patientDetailsComponent/deactivateAccount/DeactivateAccount";
 
 const PatientDetails = () => {
-  const [value, setValue] = React.useState("1");
+  const [value, setTab] = React.useState("1");
 
   const handleChange = (event, newValue) => {
-    setValue(newValue);
+    setTab(newValue);
   };
 
   return (

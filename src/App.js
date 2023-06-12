@@ -5,6 +5,7 @@ import Topbar from "./component/topbar/Topbar.jsx";
 import Home from "./pages/homePage/Home";
 import Sidebar from "./component/sidebar/Sidebar";
 import PatientDetails from "./pages/patientDetails/PatientDetails";
+import Schedule from "./pages/schedulePage/Schedule";
 
 function App() {
   return (
@@ -16,6 +17,9 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/patient/create" element={<PatientDetails />} />
+
+            <Route path="/schedule" element={<Schedule />} />
+
             {/* <Route path="/users" element={<Users />} />
           <Route path="/user/:userId" element={<User />} />
           <Route path="/newUser" element={<NewUser />} />
